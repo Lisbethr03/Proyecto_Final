@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
 
-const PORT = 3000;
+const PORT = 4000;
 
-// app.get('/', (req,res)=>{
-//     res.send('Ruta de inicio de nuestro proyecto');
-// })
+app.get('/', (_req,res)=>{
+    res.send('Ruta de inicio de nuestro proyecto');
+ })
 
 app.listen(PORT,()=>{
     console.log (`Server on http://localhost:${PORT}`);

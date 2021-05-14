@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Lisbethr03/Proyecto_Final/issues"
   },
-  "homepage": "https://github.com/Lisbethr03/Proyecto_Final#readme"
+  "homepage": "https://github.com/Lisbethr03/Proyecto_Final#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

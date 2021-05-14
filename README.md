@@ -44,3 +44,5 @@ Crear una página web a una empresa que su contenido sea de forma responsiva,es 
 6.  Crear anuncio o animación en anímate.
     
 7.  Insertar mínimo 5 comportamientos de JavaScript en la página
+
+## Requerimiento para los formularios 
