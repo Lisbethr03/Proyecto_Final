@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "Proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisbethr03/Proyecto_Final.git"
+  },
+  "author": "Lisbeth Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lisbethr03/Proyecto_Final/issues"
+  },
+  "homepage": "https://github.com/Lisbethr03/Proyecto_Final#readme"
+}
