@@ -1,0 +1,153 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Bebas Neue','Montserrat';
+    
+   
+}
+
+
+.gallery{
+     /* background: #f2f2f2;
+      */
+      background-image: url("https://i.pinimg.com/originals/dc/0c/5c/dc0c5cae9c3aa05d479da37c678f7c40.jpg"); 
+   
+}
+
+.subtitulo h2{
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue'; 
+    
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    height: 45%;
+    width: 80%;
+    /* width: 1200px; */
+    float: left;
+    margin-left: 150px;
+    
+
+}
+
+.img-galeria{
+
+    height: 30%; 
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    margin-top: 15px;
+    
+
+
+}
+
+@media screen and (max-width: 1024px)
+
+{
+   
+    
+    .contenedor-galeria
+    {
+        width: 45%;
+        display: flex;
+        flex-direction: column ;
+        margin-left: 0px; 
+    }
+
+    .btn-menu{
+        transform: translateX(0px);
+    }
+    
+    .logo_main{
+        display: none;
+    }
+    
+    .nav{
+        max-width: 40%;
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        padding: 0px;
+        transform: translateX(-100%);
+        
+    }
+    
+    
+    .nav .wrap{
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        width: 50%;
+        position: absolute;
+        top: 60px;
+    }
+    
+    nav li{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display:block;
+        position:relative;
+
+    }
+    
+    .logo_small{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        
+    }
+    
+    nav a{
+        width: 100%;
+        display: inline-block;
+        padding: 20px;
+        margin: 0;
+
+    }
+   nav ul li ul li {
+       background-color: black;
+       z-index: 100;
+   }
+    
+   nav ul{
+        display: inline-block;
+    }
+
+    
+    
+    .nav-toggle{
+        transition: all 300ms cubic-bezier(1,0,0,1);
+        transform: translateX(0%);
+    }
+    
+    
+    .main{
+    background: white;
+    padding: 20px 60px;
+}
+
+
+}
+
+@media screen and (max-width: 500px){
+
+    .img-galeria{
+
+        width: 95%;
+       
+    }
+}

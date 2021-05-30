@@ -45,4 +45,18 @@ Crear una página web a una empresa que su contenido sea de forma responsiva,es 
     
 7.  Insertar mínimo 5 comportamientos de JavaScript en la página
 
+
 ## Requerimiento para los formularios 
+
+### Rutas
+
+| Endpoint | HTTP | Description |
+| --- | --- | ---|
+| `/` | GET | Pagina de Inicio |
+| `/servicio` | GET | Pagina de servicios |
+| `/nosotros` | GET | Pagina acerca de nosotros |
+| `/contacto` | GET | Pagina de contactame |
+| `/404` | GET | Pagina de 404 |
+
+## License
+MIT (c) Lisbeth Romero

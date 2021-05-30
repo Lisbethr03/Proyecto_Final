@@ -1,0 +1,535 @@
+
+
+*{
+    box-sizing: border-box;
+    /* font-family: 'Bebas Neue','Montserrat'; */
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+
+    hr{
+        height: 1px;
+        border: none;
+        background: #7a7a7a;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    .contenedor{
+        width: 90%;
+        max-width: 1200px;
+        overflow: hidden;
+        margin: auto;
+        padding: 60px 0;
+      
+    }
+
+    #servicio{
+
+        background-color: blanchedalmond;
+
+    }
+/* header */
+.logo_main{
+  
+    padding: 25px;
+     background: #019CDE;
+    cursor: default;
+    height: 90px;
+  
+}
+
+.logo_small{
+    display: inline-block;
+    font-size: 20px;
+    padding: 4px;
+    margin-right: 50px;
+    color: #019CDE;
+    cursor: pointer;
+    padding-top: 15px;
+   
+}
+
+.nav{
+    float: left;
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 0 20px;
+    transition: .3s ease all;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    z-index: 100;
+    
+}
+
+.nav .wrap{
+    position: relative;
+    left: -150px;
+    transition: 0.4s ease all;
+}
+
+nav{
+    display: inline-block;   
+    
+}
+
+nav ul{
+    
+    background-color: #222;
+    display: flex;
+    list-style: none;
+}
+
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+
+nav a{
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease all;
+}
+
+nav a:hover{
+    color: white;
+    background: #019CDE;
+   
+}
+/* submenus */
+nav ul ul {
+    display: none;
+}
+nav ul li:hover ul {
+  display: block;  
+  position: absolute;
+}
+
+ nav > li {
+     display: flex;
+     flex-direction: column;
+ }
+
+ nav li:hover > ul {
+     display: inline-block;
+
+ } 
+
+ 
+
+
+.main{
+    background: white;
+    padding: 0;
+    
+}
+
+body.nav_fixed .nav{
+    position: fixed;
+    top: 0;
+}
+
+body.nav_fixed .nav .wrap{
+    left: 0;
+}
+
+
+.btn-menu{
+    width: 60px;
+    height: 60px;
+    padding: 22px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #019CDE;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: all 500ms cubic-bezier(1, 0, 0, 1);
+    transform: translateX(100px);
+}
+
+.btn-menu:hover
+{
+    transform: scale(1.2);
+    background: #42acfa;
+}
+ 
+/* end */
+
+/* footer */
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+/* END */
+
+/* Nosotros */
+.subtitulo{
+    color: #687dd8;
+    font-size: 110px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height:1.2;
+    
+}
+
+.contenedor-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    /* height:664px;
+    width: 1108px; */
+}
+
+
+.contenedor-nosotros img{
+    width: 40%;
+}
+
+.checklist-nosotros{
+    width: 45%;
+}
+
+.us{
+    margin-bottom: 20px;
+}
+.subtitulo h2{
+    color: #4c00ff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue'; 
+    
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.checklist-servicio{
+    width: 45%;
+    margin-left: 70px;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #4c00ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+}
+
+#textospequeno{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+
+}
+
+
+
+/* Historia */
+
+/* media query */
+
+@media screen and (max-width: 800px){
+
+    .contenedor-nosotros img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-nosotros{
+        width: 80%;
+    }
+    
+    .us{
+        margin-bottom: 30px;
+    }
+
+/* mision */
+    .contenedor-mision img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-mision{
+        width: 80%;
+    }
+    
+    .mission{
+        margin-bottom: 30px;
+    }
+    
+/* vision */
+    .contenedor-vision img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-vision{
+        width: 80%;
+    }
+    
+    .vission{
+        margin-bottom: 30px;
+    }
+    
+/* valores */
+    .contenedor-valores img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-valores{
+        width: 80%;
+    }
+    
+    .Values{
+        margin-bottom: 30px;
+    }
+    
+    
+/* historia */
+    .contenedor-historia img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-historia{
+        width: 80%;
+    }
+    
+    .history{
+        margin-bottom: 30px;
+    }
+
+/* HEADER Y FOOTER */
+.btn-menu{
+    transform: translateX(0px);
+}
+
+.logo_main{
+    display: none;
+}
+
+.nav{
+    max-width: 40%;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    padding: 0px;
+    transform: translateX(-100%);
+    
+}
+
+
+.nav .wrap{
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 50%;
+    position: absolute;
+    top: 60px;
+}
+
+nav li{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display:block;
+    position:relative;
+
+}
+
+.logo_small{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+
+nav a{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+
+}
+nav ul li ul li {
+   background-color: black;
+   z-index: 100;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+
+
+.nav-toggle{
+    transition: all 300ms cubic-bezier(1,0,0,1);
+    transform: translateX(0%);
+}
+
+
+.main{
+background: white;
+padding: 20px 60px;
+}
+
+/* Footer */
+
+.container-body{
+flex-wrap: wrap;
+}
+
+.colum1{
+max-width: 100%;
+}
+
+.colum2,
+.colum3{
+margin-top: 40px;
+}
+
+
+    
+  }
