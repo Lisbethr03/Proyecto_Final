@@ -144,7 +144,9 @@ nav ul li:hover ul {
  } 
 
  
-
+h2{
+    color: #000000;
+}
  /* .submenu{
      text-align: left;
  } */
@@ -229,8 +231,8 @@ body.nav_fixed .nav .wrap{
 
 
 /* Nosotros */
-.subtitulo{
-    color: #687dd8;
+.subtitulo h2{
+    color: #000000;
     font-size: 60px;
     text-align: center;
     font-weight: 300;
@@ -557,7 +559,7 @@ footer{
         padding: 20px 60px;
     }
         
-    
+   
 
 
 /* BANNER */
@@ -608,6 +610,10 @@ footer{
 .contenedor-nosotros img{
     width: 80%;
     margin-bottom: 40px;
+}
+
+#title {
+    color: #000000;
 }
 
 .checklist-nosotros{
